@@ -41,13 +41,13 @@ __________________________________________*/
 h2
 {
   color: #334257;
+  background-color: transparent;
   font-size: 61px;
   font-family: 'Ubuntu', sans-serif;
-  margin: 120px 0px 30px;
-  background: transparent;
+  margin: 180px 0px 30px;
 }
 
-h3
+h4
 {
   color: #334257;
   background: transparent;
@@ -114,6 +114,7 @@ figcaption
   font-style: italic;
   letter-spacing: 1px;
   color: grey;
+  background-color: transparent;
 }
 
 
