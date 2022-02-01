@@ -1,2 +1,170 @@
 @charset "UTF-8";
 /* CSS Document */
+/*__________________________________
+___________________________________*/
+/*_______________________________________________________
+  01. container
+      - hidden tag
+  02. text
+      - h2
+      - h3
+      - body
+      - Cap
+      - inner
+      - textFlow
+      -
+  03.images
+      - floatImgLeft
+      - floatImgRight
+_________________________________________________________*/
+
+/*_________________________________________
+              Container
+__________________________________________*/
+
+#container
+{
+  width: 750px;
+  margin: auto;
+}
+
+.hidden
+{
+  display: none;
+}
+
+
+/*_________________________________________
+              text
+__________________________________________*/
+
+h2
+{
+  color: #334257;
+  font-size: 61px;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 120px 0px 30px;
+  background: transparent;
+}
+
+h3
+{
+  color: #334257;
+  background: transparent;
+  font-size: 20px;
+  margin: 90px 0px 0px;
+  text-decoration:underline;
+  text-decoration-color: #334257;
+}
+
+body
+{
+  color: #495464;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 35px;
+  font-weight: normal;
+  background-color: #F7F7F7;
+  margin: 40px;
+}
+
+.Cap
+{
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 22px;
+  float: left;
+  margin: 2px 1px 0px 0px;
+}
+
+
+.inner
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-style: oblique;
+  font-family: 'Roboto', sans-serif;
+
+  font-size: 27px;
+  padding: 20px 0px 0px;
+}
+
+.LeftText
+{
+  display: flex;
+  justify-content: left;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+
+  font-size: 27px;
+  padding: 10px 0px 20px 0px;
+}
+
+.textFlow
+{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+figcaption
+{
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: grey;
+}
+
+
+
+/*_________________________________________
+              images
+__________________________________________*/
+.floatImgLeft
+{
+  float: left;
+  margin: 30px 20px 0px 0px;
+  padding: 0;
+}
+
+.floatImgLeft img
+{
+  width: 350px;
+  height: auto;
+  box-shadow: 6px 5px 5px 1px grey;
+}
+
+.floatImgRight
+{
+  float: right;
+  margin: 10px 0px 0px 10px;
+  padding: 0;
+}
+
+.floatImgRight img
+{
+  width:350px;
+  height: auto;
+  box-shadow: 6px 5px 5px 1px grey;
+}
+
+figure, figcaption
+{
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.imageCenter
+{
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+
+.imageCenter img
+{
+  width: 100%;
+  height: auto;
+}
